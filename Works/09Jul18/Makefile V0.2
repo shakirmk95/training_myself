@@ -1,0 +1,25 @@
+#Split the codes to lib folder
+
+a.out: main.o lib/libtri.a
+	gcc main.o -Llib -ltri
+
+main.o: main.c lib/tri.h
+	gcc -Ilib -c main.c
+
+lib/libtri.a: lib/tri.o lib/tri1.o lib/tri2.o lib/tri3.o
+	ar -r lib/libtri.a lib/tri.o lib/tri1.o lib/tri2.o lib/tri3.o
+
+lib/tri.o: lib/tri.c lib/tri.h
+	gcc -c lib/tri.c -o lib/tri.o
+
+lib/tri1.o: lib/tri1.c lib/tri.h
+	gcc -c lib/tri1.c -o lib/tri1.o
+
+lib/tri2.o: lib/tri2.c lib/tri.h
+	gcc -c lib/tri2.c -o lib/tri2.o
+
+lib/tri3.o: lib/tri3.c lib/tri.h
+	gcc -c lib/tri3.c -o lib/tri3.o
+
+clean:
+	rm -f main.o a.out lib/libtri.a lib/tri.o lib/tri1.o lib/tri2.o lib/tri3.o

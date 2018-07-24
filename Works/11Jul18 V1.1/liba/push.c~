@@ -1,0 +1,15 @@
+#include"stack.h"
+#include<stdio.h>
+
+int push(int x, stack *s) {
+	printf("2. %d\n", (*s).top);
+	if(isFull(s))
+		return 1;
+	else {
+		(*s).top++;
+		printf("3. %d\n", (*s).top);
+		(*s).data[(*s).top] = x;	
+		printf("4. %d\n", (*s).top);
+		return 0;
+	}
+}

@@ -1,0 +1,9 @@
+#include"queue.h"
+
+int isFull(queue q) {
+	if(q->volume == q->capacity) {
+		return 1;
+	}else {
+		return 0;
+	}
+}

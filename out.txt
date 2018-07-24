@@ -1,0 +1,969 @@
+    1  cd /home/allgo/
+    2  ls
+    3  cd Desktop/
+    4  ls
+    5  sudo mv requirements.odt /home/sanjaykm/Desktop/
+    6  ls
+    7  cd 
+    8  ll
+    9  cd Desktop/
+   10  ls
+   11  ll
+   12  sudo chown -R sanjaykm:sanjaykm requirements.odt 
+   13  ls
+   14  ll
+   15  exit
+   16  sudo apt-get update
+   17  exit
+   18  sudo apt-get install git vim openssh-server build-essential default-jdk
+   19  man strtol
+   20  gedit test.sh
+   21  sh test.sh
+   22  gedit test.sh
+   23  gedit test.sh > out.txt
+   24  sh test.sh > out.txt
+   25  gedit out.txt
+   26  gedit test.sh
+   27  sh test.sh > out.txt
+   28  gedit out.txt
+   29  gedit test.sh
+   30  dls
+   31  ls
+   32  gedit main.c
+   33  gcc main.c -o a
+   34  ./a
+   35  gedit test.sh
+   36  sh test.sh > out.txt
+   37  gedit test.sh
+   38  sh test.sh > out.txt
+   39  gedit out.txt
+   40  ./a (0,00,0) 1 2
+   41  ./a (0,0,0) 1 2
+   42  ./a 0,0,0 1 2
+   43  gcc main.c -o a
+   44  gedit main.c
+   45  gcc main.c -o a
+   46  ./a 10 A 5
+   47  ./a 10 Ab 5
+   48  ./a 10 b 5
+   49  ./a 10 10203 5
+   50  ./a 10 32000 5
+   51  ./a 10 32767 5
+   52  ./a 10 32768 5
+   53  ./a 10 32769 5
+   54  ./a 10 3276123 5
+   55  ./a 10 3276123456 5
+   56  ./a 10 3276123568957 5
+   57  ./a 10i 32 5
+   58  ./a i10 32 5
+   59  gcc main.c -o a
+   60  gedit main.c
+   61  gcc main.c -o a
+   62  ./a 10 A 5
+   63  ./a 10 Ab 5
+   64  ./a 10 10203 5
+   65  ./a 10 32767 5
+   66  ./a 10 32768 5
+   67  ./a 10 3276123456 5
+   68  ./a 10i 32 5
+   69  ./a i10 32 5
+   70  ./a 10i 10 10
+   71  gcc main.c -o a
+   72  ./a 10i 10 10
+   73  ./a 2+2 10 10
+   74  gcc main.c -o a
+   75  ./a 2+2 10 10
+   76  ./a 251+2 10 10
+   77  gcc main.c -o a
+   78  gedit main.c
+   79  gcc main.c -o a
+   80  gedit main.c
+   81  gcc main.c -o a
+   82  gedit main.c
+   83  gcc main.c -o a
+   84  ifconfig 
+   85  ping google. com
+   86  ping google.com
+   87  exit
+   88  gedit tri.c
+   89  gcc main.c -o a
+   90  man isdigit
+   91  gedit t.c
+   92  gcc t.c -o t
+   93  ./t 10 10+a 10i i10
+   94  gcc t.c -o t
+   95  ./t 10 10+a 10i i10
+   96  gcc t.c -o t
+   97  ./t 10 10+a 10i i10
+   98  gcc main.c -o a
+   99  ./a 10n h 67
+  100  ./a hi 56 89
+  101  gcc t.c -o t
+  102  ./t 10 10+a 10i i10
+  103  gcc t.c -o t
+  104  ./t 10 10+a 10i i10
+  105  gcc main.c -o a
+  106  ./a 10 10i i20 
+  107  ./t 1 9 10 50
+  108  gcc t.c -o t
+  109  ./t 1 9 10 50
+  110  gedit t.c
+  111  gcc t.c -o t
+  112  ./t 1 2 3 8 9 10 12 31 100 b c1d 54df 31df dfg45 dfg
+  113  gcc t.c -o t
+  114  ./t 1 2 3 8 9 10 12 31 100 b c1d 54df 31df dfg45 dfg
+  115  gcc t.c -o t
+  116  ./t 1 2 3 8 9 10 12 31 100 b c1d 54df 31df dfg45 dfg
+  117  gcc t.c -o t
+  118  ./t 1 2 3 8 9 10 12 31 100 b c1d 54df 31df dfg45 dfg
+  119  gcc t.c -o t
+  120  ./t 1 2 3 8 9 10 12 31 100 b c1d 54df 31df dfg45 dfg
+  121  ./t a b c d
+  122  ./t 1 2 3 8 9 10 12 31 100 b c1d 54df 31df dfg45 dfg
+  123  gcc main.c -o a
+  124  ./a 10 10i i12
+  125  ./a 10 10i 10
+  126  gcc main.c -o a
+  127  ./a 10 10i 10
+  128  ./a 10 10i i10
+  129  gcc main.c -o a
+  130  ./a 10 10i i10
+  131  ./a 10 10i 10
+  132  ./a 10 103.5 10
+  133  clear
+  134  claer
+  135  clear
+  136  gcc main.c -o a
+  137  ./a 10 103.5 10
+  138  ./a 10 10i i10
+  139  sh test.sh > out.txt
+  140  gedit test.sg
+  141  gedit test.sh
+  142  gedit out.txt
+  143  gcc main.c -o a
+  144  sh test.sh > out.txt
+  145  gedit out.txt
+  146  gcc main.c -o a
+  147  sh test.sh > out.txt
+  148  gcc main.c -o a
+  149  sh test.sh > out.txt
+  150  ls
+  151  gcc main.c -o a
+  152  ./a
+  153  ./a 10
+  154  ./a 10 10 10
+  155  ./a 10 10 9
+  156  ./a 10 1 1
+  157  gcc main.c -o a
+  158  ./a 10 1 1
+  159  man isdigti
+  160  man isdigit
+  161  cd Desktop/
+  162  gcc t.c -o a
+  163  ./a 1 2 9 10 11
+  164  ./a 1 2 9 10 11i
+  165  ./a 1 2 9 10 11i23
+  166  ./a 1 2 9 10 11i23 i12
+  167  gcc t.c -o a
+  168  ./a 1 2 9 10 11i23 i12
+  169  gcc t.c -o a
+  170  ./a 1 2 9 10 11i23 i12
+  171  gcc t.c -o a
+  172  ./a 1 2 9 10 11i23 i12
+  173  gcc t.c -o a
+  174  ./a 1 2 9 10 11i23 i12
+  175  gcc t.c -o a
+  176  ./a 1 2 9 10 11i23 i12
+  177  cd..
+  178  cd ..
+  179  ls
+  180  gcc main.c -o a
+  181  ./a
+  182  ./a 10 10 10
+  183  gcc main.c -o a
+  184  ./a 10 10 10
+  185  ./a 10 1 1
+  186  gcc main.c -o a
+  187  ./a 10 1 1
+  188  ./a 10 10 10
+  189  gcc main.c -o a
+  190  ./a 10 10 10
+  191  gcc main.c -o a
+  192  ./a 10 1 1
+  193  ./a 10 10 10
+  194  ./a 10i 10 10
+  195  ./a 10+1 10 10
+  196  sh test.sh > out.txt
+  197  ./a 100 101 0
+  198  scp ~/home/sanjaykm/.ssh/id_rsa/id.pub TeamGroupD@172.16.0.215:
+  199  scp ~/home/sanjaykm/.ssh/id_rsa/id.pub TeamGroupD@172.16.0.215:.
+  200  ssh TeamGroupD@allgotraining
+  201  scp ~/home/sanjaykm/.ssh/id_rsa/id.pub TeamGroupD@172.16.0.215:.
+  202  scp ~/home/sanjaykm/.ssh/id_rsa/id.pub TeamGroupD@allgotraining:.
+  203  scp ~/.ssh/id_rsa/id.pub TeamGroupD@allgotraining:.
+  204  scp ~/id.pub TeamGroupD@allgotraining:.
+  205  ssh TeamGroupD@allgotraining
+  206  ssh-keygen -t rsa
+  207  scp ~/.ssh/id_rsa.pub TeamGroupD@allgotraining:.
+  208  mv id_rsa.pub ~/.ssh/authorized_keys
+  209  chmod -R 777 ~/.ssh
+  210  chmod -R 700 ~/.ssh
+  211  ssh TeamGroupD@allgotraining
+  212  ls
+  213  cd .ssh
+  214  ls
+  215  cd id_rsa
+  216  cd ..
+  217  ssh TeamGroupD@allgotraining
+  218  gcc main.c -o a
+  219  ./a
+  220  ./a 10
+  221  ./a 10 10
+  222  ./a 10 10 10
+  223  ./a 10 10 9
+  224  ./a 10 1 1
+  225  gcc main.c -o a
+  226  ./a
+  227  ./a 10
+  228  ./a 10 10
+  229  ./a 10 10 10
+  230  gcc main.c -o a
+  231  ./a 10 10 10
+  232  gcc main.c -o a
+  233  ./a 10 10 10
+  234  gcc main.c -o a
+  235  ./a 10 10 10
+  236  gcc main.c -o a
+  237  ./a 10 10 10
+  238  gcc main.c -o a
+  239  ./a 10 10 10
+  240  gcc main.c -o a
+  241  ./a
+  242  ./a 10
+  243  ./a 10 10
+  244  ./a 10 10 10
+  245  gcc main.c -o a
+  246  ./a 10 10 10
+  247  gcc main.c -o a
+  248  ./a 10 10 10
+  249  gcc main.c -o a
+  250  ./a 10 10 10
+  251  sh test.sh > out.txt
+  252  ls
+  253  gcc main.c -o a
+  254  sh test.sh > out.txt
+  255  gcc main.c -o a
+  256  sh test.sh > out.txt
+  257  gcc main.c -o a
+  258  sh test.sh > out.txt
+  259  gcc main.c -o a
+  260  sh test.sh > out.txt
+  261  gcc main.c -o a
+  262  sh test.sh > out.txt
+  263  gcc main.c -o a
+  264  sh test.sh > out.txt
+  265  clear
+  266  gedit main.c
+  267  gedit tri.c
+  268  gcc -V main.c
+  269  gcc -v main.c
+  270  gcc -E main.c
+  271  gcc -S main.c
+  272  ./a.out
+  273  gcc -S main.c
+  274  as main.s
+  275  gcc -c main.c
+  276  od -c main.o
+  277  od -t x1 main.o|less
+  278  objdump -t main.o
+  279  gcc -c main.c
+  280  gcc -c tri.c
+  281  gcc main.o tri.o
+  282  gcc -c main.c
+  283  gcc -c tri.c
+  284  gcc main.o tri.o
+  285  gedit main.c
+  286  gcc main.o tri.o
+  287  gedit main.c
+  288  gcc main.o tri.o
+  289  gedit main.c
+  290  gcc main.c tri.c
+  291  gcc -c main.c
+  292  gcc -c tri.c
+  293  gcc main.o tri.o
+  294  objdump -t main.o
+  295  objdump -t tri.o
+  296  objdump -t a.out
+  297  gcc -c main.c
+  298  objdump -t main.o
+  299  ar -r libmain.a main.o
+  300  ar -r libtri.a tri.o
+  301  gcc main.c -L. -ltri
+  302  ./a.out
+  303  ./a.out 10 10 10
+  304  ls
+  305  vim libmain.a
+  306  gvim main.s
+  307  sh test.sh > out.txt
+  308  gcc main.c -o a
+  309  sh test.sh > out.txt
+  310  gcc -E main.c
+  311  gcc -S main.c
+  312  as main.s
+  313  ls
+  314  as main.s -o main.o
+  315  ls
+  316  gvim a.out
+  317  gvim main.o
+  318  gedit a.out
+  319  as main.s
+  320  gcc -c main.s
+  321  ls
+  322  rm main.o
+  323  gcc -c main.s
+  324  ls
+  325  rm a.out
+  326  ls
+  327  as main.s
+  328  ls
+  329  rm a.out
+  330  rm main.o
+  331  as main.s -o main.o
+  332  ls
+  333  od -c main.c
+  334  od -t x1 main.c
+  335  od -t x2 main.c
+  336  od -t x3 main.c
+  337  objdump -t main.o
+  338  gcc -c main.s
+  339  gcc -c main.c
+  340  objdump -t main.o
+  341  gcc -c tri.c
+  342  gcc -S tri.c
+  343  gcc -c main.c
+  344  gcc -c tri.c
+  345  gcc main.o tri.o
+  346  ./a.out
+  347  ./a.out 10 10 10
+  348  gcc main.o
+  349  gcc main.o tri.o
+  350  gcc -c main.c
+  351  gcc -c tri.c
+  352  gcc main.o tri.o
+  353  gcc -c main.c
+  354  gcc -c tri.c
+  355  gcc main.o tri.o
+  356  ./a.out
+  357  ./a.out 10 10 10
+  358  gcc -c main.c
+  359  gcc -c tri.c
+  360  gcc -c main.c
+  361  gcc -c tri.c
+  362  gcc main.o tri.o
+  363  ./a.out 10 10 10
+  364  gcc -c tri.c
+  365  ./a.out 10 10 10
+  366  gcc main.o tri.o
+  367  ./a.out 10 10 10
+  368  gedit tri.h&
+  369  gcc -c main.c
+  370  gedit tri.h&
+  371  gedit tri.h
+  372  gedit tri.h&
+  373  gcc -c main.c
+  374  gcc -c tri.c
+  375  gcc main.o tri.o
+  376  ./a.out 10 10 10
+  377  gcc -c main.c
+  378  gcc -c tri.c
+  379  gcc main.o tri.o
+  380  ./a.out 10 10 10
+  381  ar -r libtri.a tri.o
+  382  ./a.out
+  383  ./a.out 10 10 10
+  384  gcc -c tri.c
+  385  gcc -c tri1.c
+  386  gcc -c tri2.c
+  387  gcc -c tri3.c
+  388  ar -r libtri.a tri.o tri1.o tri2.o tri3.o
+  389  gcc -c main.c
+  390  gcc -c tri.c
+  391  gcc -c tri1.c
+  392  gcc -c tri2.c
+  393  gcc -c tri3.c
+  394  ar -r libtri.a tri.o tri1.o tri2.o tri3.o
+  395  ./a.out 10 10 10
+  396  gcc -c main.c
+  397  ./a.out 10 10 10
+  398  gcc -c tri.c
+  399  gcc -c tri1.c
+  400  gcc -c tri2.c
+  401  gcc -c tri3.c
+  402  gcc -c tri.c
+  403  gcc -c main.c
+  404  ar -r libtri.a tri.o tri1.o tri2.o tri3.o
+  405  ./a.out 10 10 10
+  406  gcc main.c -L. -ltri
+  407  ./a.out 10 10 10
+  408  gcc main.c -L. -ltri
+  409  ar -r libtri.a tri.o tri1.o tri2.o tri3.o
+  410  gcc main.c -L. -ltri
+  411  ar -r libtri.a tri.o tri1.o tri2.o tri3.o
+  412  gcc main.c -L. -ltri
+  413  ./a.out 10 10 10
+  414  clear
+  415  gcc main.c
+  416  gcc main.c tri.c tri1.c tri2.c tri3.c
+  417  gcc -c tri.c
+  418  gcc -c tri1.c
+  419  gcc -c tri2.c
+  420  gcc -c tri3.c
+  421  ar -r libtri.a tri.o tri1.o tri2.o tri3.o
+  422  gcc main.c -L. -ltri
+  423  ./a.out 10 10 10
+  424  sudo apt-get install gcc-arm-none-eabi
+  425  arm-none-eabi-gcc -v main.c
+  426  arm-none-eabi-gcc -E main.c
+  427  arm-none-eabi-gcc -s main.c
+  428  vim spans.c
+  429  vim Makefile
+  430  ls
+  431  vim Makefile
+  432  ls
+  433  vim Makefile
+  434  make clean
+  435  ls
+  436  cd Copy/
+  437  cd 09Jul18/
+  438  ls
+  439  vim Makefile
+  440  make clean
+  441  make
+  442  ls
+  443  ./a.out 10 10 10
+  444  make clean
+  445  vim Makefile
+  446  make clean
+  447  vim Makefile
+  448  make clean
+  449  make
+  450  vim Makefile
+  451  make
+  452  vim Makefile
+  453  make
+  454  make clean
+  455  make
+  456  vim Makefile
+  457  make clean
+  458  make
+  459  vim Makefile
+  460  make clean
+  461  make
+  462  vim Makefile
+  463  make clean
+  464  make
+  465  vim Makefile
+  466  make clean
+  467  make
+  468  vim Makefile
+  469  make clean
+  470  make
+  471  make clean
+  472  make
+  473  vim Makefile
+  474  make clean
+  475  make
+  476  ./a.out 10 10 10
+  477  make clean
+  478  make
+  479  make clean
+  480  vim Makefile
+  481  vim "Makefile V0.1"
+  482  vim Makefile
+  483  make clean
+  484  cd lib/; gvim Makefile
+  485  make clean
+  486  cd Works/
+  487  cd 09Jul18/
+  488  ls
+  489  make clean
+  490  make
+  491  make clean
+  492  make
+  493  ./a.out 10 10 10
+  494  cd Works/09Jul18/
+  495  ls
+  496  make
+  497  ls
+  498  make
+  499  make clean
+  500  make
+  501  make clean
+  502  make
+  503  ./a.out 10 10 10
+  504  make
+  505  gedit test.c
+  506  gcc test.c
+  507  gedit test.c&
+  508  gcc test.c
+  509  gedit test.c&
+  510  gcc test.c
+  511  ./a.out
+  512  cd Works/10Jul18/
+  513  ls
+  514  gvim Makefile
+  515  cd liba
+  516  gcc -c push.c
+  517  clear
+  518  gcc -c push.c
+  519  claer
+  520  clear
+  521  gcc -c push.c
+  522  clear
+  523  gcc -c push.c
+  524  clear
+  525  gcc -c push.c
+  526  clear
+  527  gcc -c push.c
+  528  clear
+  529  gcc -c push.c
+  530  clear
+  531  gcc -c push.c
+  532  gcc -c pop.c
+  533  gcc -c isFull.c
+  534  gcc -c isEmpty.c
+  535  ls
+  536  ar -r libstack.a push.o pop.o isEmpty.o isFull.o
+  537  ls
+  538  cd ..
+  539  ls
+  540  gcc -c test.c
+  541  gcc -Iliba -c test.c
+  542  ls
+  543  gcc main.o -Lliba -lstack
+  544  gcc test.o -Lliba -lstack
+  545  ./a.out
+  546  cd Works/10Jul18/
+  547  cd Works/10Jul18/liba
+  548  cd liba
+  549  gcc -c push.c
+  550  gcc -c pop.c
+  551  gcc -c isEmpty.c
+  552  gcc -c isFull.c
+  553  ar -r libstack.a push.o pop.o isEmpty.o isFull.o
+  554  gcc test.o -Lliba -lstack
+  555  gcc -c test.c
+  556  cd ..
+  557  gcc -c test.c
+  558  gcc test.c -Lliba -lstack
+  559  gcc -Iliba -c test.c
+  560  gcc test.o -Lliba -lstack
+  561  ./a.out
+  562  cd Works/10Jul18/liba
+  563  cd ..
+  564  cd liba
+  565  gcc -c push.c
+  566  ar -r libstack.a push.o pop.o isEmpty.o isFull.o
+  567  gcc -Iliba -c test.c
+  568  cd ..
+  569  gcc -Iliba -c test.c
+  570  gcc test.o -Lliba -lstack
+  571  ./a.out
+  572  cd liba
+  573  gvim Makefile
+  574  cd ..
+  575  make clean
+  576  make
+  577  ./a.out
+  578  make
+  579  make clean
+  580  make
+  581  ./a.out
+  582  make clean
+  583  ./a.out
+  584  make
+  585  ./a.out
+  586  make clean
+  587  make
+  588  make clean
+  589  make
+  590  ./a.out
+  591  make clean
+  592  make
+  593  ./a.out
+  594  make
+  595  cd Works/10Jul18/
+  596  make clean
+  597  cd Works/10Jul18
+  598  make
+  599  make clean
+  600  make
+  601  ./a.out
+  602  cd Works/10Jul18
+  603  make clean
+  604  make
+  605  make clean
+  606  make
+  607  make clean
+  608  make
+  609  clear
+  610  make clean
+  611  make
+  612  ./aout
+  613  ./a.out
+  614  make clean
+  615  make
+  616  ./a.out
+  617  make
+  618  ./a.out
+  619  make clean
+  620  cd Works/10Jul18
+  621  make clean
+  622  cd Works/11Jul18/
+  623  make clean
+  624  make
+  625  make clean
+  626  make
+  627  make clean
+  628  make
+  629  make clean
+  630  make
+  631  make clean
+  632  make
+  633  make clean
+  634  make
+  635  make clean
+  636  make
+  637  make clean
+  638  make
+  639  cd Works/11Jul18
+  640  ls
+  641  make clean
+  642  make
+  643  make clean
+  644  make
+  645  make clean
+  646  make
+  647  ./a.out
+  648  make clean
+  649  make
+  650  make clean
+  651  make
+  652  ./a.out
+  653  make clean
+  654  make
+  655  ./a.out
+  656  cd Works/11Jul18
+  657  make clean
+  658  make
+  659  ./a.out
+  660  cd Works/11Jul18
+  661  make clean
+  662  make
+  663  ./a.out
+  664  make clean
+  665  make
+  666  make clean
+  667  make
+  668  ./a.out
+  669  make clean
+  670  make
+  671  ./a.out
+  672  make clean
+  673  make
+  674  make clean
+  675  make
+  676  make clean
+  677  make
+  678  ./a.out
+  679  make clean
+  680  make
+  681  ./a.out
+  682  make clean
+  683  make
+  684  ./a.out
+  685  cd Works/11Jul18
+  686  make clean
+  687  make
+  688  cd ..
+  689  cd '11Jul18 cOPY'
+  690  cd '11Jul18 Copy'
+  691  cd '11Jul18 (copy)'
+  692  make clean
+  693  make
+  694  make clean
+  695  make
+  696  make clean
+  697  make
+  698  make clean
+  699  make
+  700  make clean
+  701  make
+  702  make clean
+  703  make
+  704  make clean
+  705  make
+  706  make clean
+  707  make
+  708  make clean
+  709  make
+  710  make clean
+  711  cd..
+  712  cd ..
+  713  cd 11Jul18
+  714  make clean
+  715  cd Works/11Jul18
+  716  make
+  717  make clean
+  718  make
+  719  ./a.out
+  720  make clean
+  721  make
+  722  make clean
+  723  make
+  724  ./a.out
+  725  cd .. 
+  726  cd 11Jul18q
+  727  ls
+  728  make clean
+  729  make
+  730  make clean
+  731  make
+  732  make clean
+  733  make
+  734  make clean
+  735  make
+  736  make clean
+  737  make
+  738  make clean
+  739  make
+  740  make clean
+  741  make
+  742  make clean
+  743  make
+  744  clear
+  745  make clean
+  746  make
+  747  ./a.out
+  748  make clean
+  749  make
+  750  ./a.out
+  751  clear
+  752  make clean
+  753  make
+  754  ./a.out
+  755  clear
+  756  make clean
+  757  make
+  758  ./a.out
+  759  clear
+  760  make clean
+  761  make
+  762  ./a.out
+  763  clear
+  764  make clean
+  765  make
+  766  ./a.out
+  767  make clean
+  768  make
+  769  ./a.out
+  770  make clean
+  771  make
+  772  ./a.out
+  773  clear
+  774  make clean
+  775  make
+  776  clear
+  777  make clean
+  778  make
+  779  ./a.out
+  780  make clean
+  781  make
+  782  ./a.out
+  783  make
+  784  make clean
+  785  make
+  786  ./a.out
+  787  make
+  788  ./a.out
+  789  make
+  790  ./a.out
+  791  make clean
+  792  make
+  793  ./a.out
+  794  make clean
+  795  make
+  796  ./a.out
+  797  make clean
+  798  make
+  799  clear
+  800  make clean
+  801  make
+  802  make clean
+  803  clear
+  804  make
+  805  clear
+  806  make clean
+  807  make
+  808  make clean
+  809  make
+  810  make clean
+  811  make
+  812  make clean
+  813  make
+  814  ./a.out
+  815  make clean
+  816  make
+  817  ./a.out
+  818  make clean
+  819  make
+  820  ./a.out
+  821  make clean
+  822  make
+  823  1
+  824  make
+  825  ./a.out
+  826  make clean
+  827  make
+  828  ./a.out
+  829  make clean
+  830  make
+  831  ./a.out
+  832  make clean
+  833  make
+  834  ./a.out
+  835  make clean
+  836  make
+  837  ./a.out
+  838  make clean
+  839  make
+  840  ./a.out
+  841  make
+  842  ./a.out
+  843  make clean
+  844  make
+  845  ./a.out
+  846  clear
+  847  make clean
+  848  make
+  849  ./a.out
+  850  clear
+  851  make clean
+  852  make
+  853  ./a.out
+  854  make
+  855  ./a.out
+  856  sudo apt-get install nautilus-open-terminal
+  857  killall nautilus && nautilus &
+  858  make clean
+  859  make
+  860  ./a.out
+  861  make clean
+  862  make
+  863  make clean
+  864  make
+  865  ./a.out
+  866  make clean
+  867  make
+  868  ./a.out
+  869  make clean
+  870  make
+  871  ./a.out
+  872  make clean
+  873  make
+  874  ./a.out
+  875  make clean
+  876  make
+  877  ./a.out
+  878  make clean
+  879  make
+  880  ./a.out
+  881  make clean
+  882  cd works
+  883  cd Works
+  884  cd 11jul18
+  885  cd 11/jul/18
+  886  cd 11Jul18
+  887  ls
+  888  make clean
+  889  make 
+  890  ./a.out
+  891  cd Works
+  892  cd 11Jul18
+  893  make clean
+  894  make 
+  895  ./a.out
+  896  cd 11Jul18
+  897  ls
+  898  cd Works/
+  899  ls
+  900  cd 11Jul18q
+  901  ls
+  902  make clean
+  903  make
+  904  ls
+  905  ./a.out 
+  906  make clean
+  907  make
+  908  ./
+  909  ls
+  910  ./a.out 
+  911  ls
+  912  ./a.out
+  913  ./a.out 
+  914  gedit 1.c
+  915  gvim 1.c
+  916  vbm
+  917  "
+  918  gcc anc.c
+  919  cd
+  920  cd 11Jul18
+  921  ls
+  922  make clean
+  923  make
+  924  ./a.out 
+  925  make clean
+  926  make
+  927  ./a.out 
+  928  make clean
+  929  make
+  930  ./a.out 
+  931  make clean
+  932  make
+  933  ./a.out 
+  934  make clean
+  935  make
+  936  ./a.out 
+  937  make clean
+  938  make
+  939  ./a
+  940  ./a.out 
+  941  make clean
+  942  make
+  943  ./a.out 
+  944  1
+  945  ./a.out 
+  946  cd Documents
+  947  cd works
+  948  cd Works
+  949  cd ..
+  950  cd Works
+  951  cd 11Jul18
+  952  make file
+  953  make clean
+  954  make
+  955  ./a.out
+  956  cat test.c
+  957  make clean
+  958  make
+  959  ssh TeamGroupD@allgosystems.com
+  960  cd
+  961  ls
+  962  cd .sha
+  963  cd .ssh
+  964  ls
+  965  cat known_hosts 
+  966  cd known_hosts 
+  967  history
+  968  cd 
+  969  history > out.txt

@@ -1,0 +1,25 @@
+#All the programs in same folder
+
+a.out: main.o libtri.a
+	gcc main.o -L. -ltri
+
+main.o: main.c tri.h
+	gcc -c main.c
+
+libtri.a: tri.o tri1.o tri2.o tri3.o
+	ar -r libtri.a tri.o tri1.o tri2.o tri3.o
+
+tri.o: tri.c tri.h
+	gcc -c tri.c
+
+tri1.o: tri1.c tri.h
+	gcc -c tri1.c
+
+tri2.o: tri2.c tri.h
+	gcc -c tri2.c
+
+tri3.o: tri3.c tri.h
+	gcc -c tri3.c
+
+clean:
+	rm -f main.o a.out libtri.a tri.o tri1.o tri2.o tri3.o
