@@ -1,8 +1,0 @@
-#include"queue.h"
-#include <stdlib.h>
-#include <stdio.h>
-
-void destroyQueue(queue q) {
-	free(q->data);
-	printf("Queue Destroyed\n");
-}
